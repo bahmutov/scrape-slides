@@ -1,4 +1,4 @@
-# scrape-slides [![ci status][ci image]][ci url]
+# scrape-slides [![ci status][ci image]][ci url] [![scrape-slides](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/hacxpt/main&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/hacxpt/runs)
 > Scrape slides.com/username to get the main deck information as a JSON list
 
 From
