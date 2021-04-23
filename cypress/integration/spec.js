@@ -16,18 +16,11 @@ const pickDeckProperties = (dataset) =>
     'visibility',
   ])
 
-const getDeckProperties = (deck$) => {
-  const dataset = deck$.prop('dataset')
-  return pickDeckProperties(dataset)
-}
-
 describe('Bahmutov slides', () => {
   before(() => {
     cy.visit('/')
   })
 
-  // grab all decks before each test because the aliases
-  // are reset before every test
   beforeEach(() => {
     // there are a log of slide decks
     cy.get('.decks.visible .deck.public')
@@ -35,23 +28,15 @@ describe('Bahmutov slides', () => {
       .as('decks')
   })
 
-  it('has deck dataset', () => {
-    // there are a log of slide decks
-    cy.get('@decks')
-      .first()
-      .then(getDeckProperties)
-      .then((props) => cy.log(JSON.stringify(props)))
+  it('has decks', () => {
+    cy.get('@decks').should('have.length.gt', 100)
   })
 
-  it('saves all deck props', () => {
-    const decks = []
+  it('has deck dataset', () => {
     cy.get('@decks')
-      .each((deck$) => {
-        const deckProps = getDeckProperties(deck$)
-        decks.push(deckProps)
-      })
-      .then(() => {
-        cy.writeFile('decks.json', decks)
-      })
+      .first()
+      .invoke('prop', 'dataset')
+      .then(pickDeckProperties)
+      .then((props) => cy.log(JSON.stringify(props)))
   })
 })
