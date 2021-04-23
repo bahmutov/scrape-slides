@@ -1,0 +1,1010 @@
+[
+  {
+    "createdAt": "2021-04-09 19:31:53 UTC",
+    "description": "In this presentation, Gleb will show how every commit and every pull request can run the full set of realistic end-to-end tests, ensuring the web application is going to work for the user. He will look at the modern CI setup, benefits of clean data environments, and parallelization speed-ups. Anyone looking to learn how awesome the modern automated testing pipeline can be would benefit from this presentation. Presented at BrightTALK 2021",
+    "slug": "no-excuses",
+    "url": "/bahmutov/no-excuses",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2021-04-01 17:19:27 UTC",
+    "description": " Keeping the documentation up-to-date with the web application is hard. The screenshots and the videos showing the user how to perform some task quickly fall out of sync with the latest design and logic changes. In this presentation, I will show how to use end-to-end tests to generate the documentation. By keeping the tests in sync with the application, and by running them on every commit, we will update the documentation, ensuring our users never get confused by the obsolete docs. Presented at TestingStage 2021, video at https://youtu.be/H9VqsTZ9NME",
+    "slug": "tests-are-docs",
+    "url": "/bahmutov/tests-are-docs",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2021-03-21 12:36:17 UTC",
+    "description": "If you are working on the web application, and try to document it for the users, what do you do? Do you copy / paste screenshots into the docs? Does your documentation slowly diverge from the application? What if there was a better way? In this talk, I will show how to use the tests to document the web-application behavior, ensuring the docs are always correct. Presented at CityJS 2021",
+    "slug": "test-driven-documentation",
+    "url": "/bahmutov/test-driven-documentation",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2021-02-15 21:42:30 UTC",
+    "description": "This slides.com deck picks different styles depending on the viewer's OS preference. By default, the deck will have a pink-white background. But if you set your OS to Dark mode, the presentation will switch to the dark background and light text.",
+    "slug": "slides-dark-mode",
+    "url": "/bahmutov/slides-dark-mode",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2021-02-14 17:50:26 UTC",
+    "description": "In this presentation, Gleb Bahmutov explains how the new cy.intercept command works to spy or stub network calls from your web application. He will explain how the intercept works under the hood and how to avoid several common testing problems. Everyone writing Cypress tests would benefit from learning about cy.intercept command and from watching this presentation. Video at https://www.youtube.com/watch?v=LEeoQp1j93I",
+    "slug": "how-cy-intercept-works",
+    "url": "/bahmutov/how-cy-intercept-works",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2021-01-16 19:43:23 UTC",
+    "description": "In this talk, I will discuss the common mistakes developers make when writing Cypress tests and how to avoid them. We will discuss tests that are too short, tests that hardcode data, tests that race against the application, and other mistakes. I believe this presentation will be useful to anyone writing E2E tests using JavaScript. Presented at TestJSSummit in Jan 2021",
+    "slug": "testing-mistakes",
+    "url": "/bahmutov/testing-mistakes",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2021-01-09 21:43:06 UTC",
+    "description": "In this presentation, Gleb Bahmutov, a Distinguished Engineer at Cypress will show how to write realistic Cypress tests beyond a simple \"Hello World\" test. We will look at Node vs Browser boundary, cy.task, setting up the database state, stubbing browser APIs, documentation, GitHub issues, Cypress Studio, and other advanced topics. Everyone who is just starting with Cypress or is an advanced user will benefit from attending this free meetup. Video at https://www.youtube.com/watch?v=Q5djbLL1Pjg",
+    "slug": "cypress-beyond-the-hello-world",
+    "url": "/bahmutov/cypress-beyond-the-hello-world",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-11-24 19:47:46 UTC",
+    "description": "Good documentation with powerful search is the key to the project's success with users. I will show how to configure Algolia search to scrape your site, and how to test the search using Cypress.io test runner. Presented at AngularUp in Nov 2020",
+    "slug": "testing-docs",
+    "url": "/bahmutov/testing-docs",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-10-20 12:08:47 UTC",
+    "description": "Unit testing is hard and time-consuming; and worse - the users and the customers do not care! They only want the features working in the production system, everything else is development overhead. If this is the case, how do we improve web application quality? How do we catch the bugs early? How can we test the deployed system effectively? This presentation tries to answer many of these questions in a web framework agnostic way using open source test runner Cypress.io.",
+    "slug": "cypress-testing",
+    "url": "/bahmutov/cypress-testing",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-10-16 12:36:19 UTC",
+    "description": "Having a good text search is the key to successful documentation, especially as the number of pages, examples, code recipes, answers, and other user-facing text snippets grow. In this presentation, I will show how to set up the Algolia search index and use it from a static site to make sure your users find _everything_ they are looking for. Video at https://www.youtube.com/watch?v=z_RutLs0W70",
+    "slug": "find-me-if-you-can",
+    "url": "/bahmutov/find-me-if-you-can",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-09-24 15:11:38 UTC",
+    "description": "Short greeting to SDET Meetup, where I talk about recent features we have released and our current work. Video at https://www.youtube.com/watch?v=XQ6WQTJ05p0&feature=emb_logo",
+    "slug": "sdet",
+    "url": "/bahmutov/sdet",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-09-11 00:50:27 UTC",
+    "description": "Slides are in English. В этом докладе я расскажу как визуально тестировать веб-приложения бесплатно, то есть даром, как сказал Винни-Пух. Визуальное тестирование дополняет функциональное тестирование и за один \"мах\" может сравнить целую страницу с \"золотым\" эталоном. Это очень эффективно заменяет множество индивидуальных тестов, ловит проблемы с CSS, и гарантирует что приложение работает правильно и выглядит не хуже чем было. For QAFest 2020, video at https://youtu.be/3Z-doNgoJFI",
+    "slug": "qafest-2020",
+    "url": "/bahmutov/qafest-2020",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-07-12 22:35:14 UTC",
+    "description": "Many modern web frameworks use components as their building blocks. In this talk, I will show component testing using Cypress – and I mean “show” literally. You will see the component running inside a real browser, you will interact with the component like a real user, and you can debug the component using the real browser’s DevTools. Finally, I will go through the current open source and commercial options for visually testing the component’s styles and rendering. Presented at Des Moines JS, video at https://youtu.be/gUFdU5fQs4o",
+    "slug": "visual-testing",
+    "url": "/bahmutov/visual-testing",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-06-11 12:08:39 UTC",
+    "description": "Visual Testing for Your Components. Many modern web frameworks use components as their building blocks. In this talk, I will show component testing using Cypress - and I mean \"show\" literally. You will see the component running inside a real browser, you will interact with the component like a real user, and you can debug the component using the real browser's DevTools. Finally, I will go through the current open source and commercial options for visually testing the component's styles and rendering. Read blog post https://glebbahmutov.com/blog/open-source-visual-testing-of-components/ Video at https://www.youtube.com/watch?v=00BNExlJUU8",
+    "slug": "i-see-what-is-going-on",
+    "url": "/bahmutov/i-see-what-is-going-on",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-05-31 12:46:37 UTC",
+    "description": "End-to-end testing with Cypress, presented at TechTrain.ru in June 2020. Video at https://www.youtube.com/watch?v=QRnd4nvR_dc",
+    "slug": "techtrain",
+    "url": "/bahmutov/techtrain",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-05-20 01:07:20 UTC",
+    "description": "The Covid-19 pandemic led to a lot of tech companies converting to remote teams almost overnight, and for some this may even become the norm. So as we adjust to new ways of working, how do you ensure that your appsec procedures are designed to withstand any changes in your team dynamics? Video at https://resources.whitesourcesoftware.com/wistia-webinars/what-going-all-remote-taught-us-about-appsec-and-testing-shortfalls",
+    "slug": "all-remote",
+    "url": "/bahmutov/all-remote",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-04-24 02:23:48 UTC",
+    "description": "In this meetup discover CircleCI Orbs vs GitHub Actions vs Netlify Build Plugins - what are they and how they simplify continuous integration setup with Gleb Bahmutov. Video at https://www.youtube.com/watch?v=McwE2tztlkA",
+    "slug": "ci-triple",
+    "url": "/bahmutov/ci-triple",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-04-18 14:03:26 UTC",
+    "description": "We see the great technology unification, with the boundary between the server and the client (browser) becoming blurrier every day. Who has time and budget to write separate code bases? In this presentation, Gleb will show the ultimate combination of NPM's two most popular packages: Browserify and Express; and their product that allows moving the complete server to run inside the browser's ServiceWorker. It is like server-side rendering but inside your browser, and even runs when JavaScript is disabled! Video at https://www.youtube.com/watch?v=NfZrL5eJa3g",
+    "slug": "new-server",
+    "url": "/bahmutov/new-server",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-04-16 01:42:34 UTC",
+    "description": "In this talk I will show how testing could be a way to speed up web application development rather than hinder it. I will show end-to-end testing as it should be: fast, providing quick feedback, and able to simulate hard to recreate edge cases. I will also show types of testing that greatly complement E2E testing: visual testing to prevent style regressions, API testing to test edge cases, accessing native browser objects, and component testing.",
+    "slug": "fast-and-effective-end-to-end-tests",
+    "url": "/bahmutov/fast-and-effective-end-to-end-tests",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-03-20 21:14:26 UTC",
+    "description": "In this presentation, I will show how simple the continuos integration can be with GitHub Actions. They are powerful, have generous limits for public repositories and can be easily reused. In particular, I will show a few use cases that can be of interest to any JavaScript or TypeScript developer: - How to run Prettier inside a GH Action and push any updated code back to the repository - How to correctly install Node dependencies with a single YAML line - How to run end-to-end Cypress tests without pulling your hair out. Video at https://www.youtube.com/watch?v=zhPqf5z_crc",
+    "slug": "gh-actions",
+    "url": "/bahmutov/gh-actions",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-02-27 02:35:47 UTC",
+    "description": "This presentation looks at the variety of ways we can test a typical web application. From unit tests to end-to-end, from functional to visual testing, from happy paths to the edge cases - there are a lot of solutions available, and each new technique gives us additional confidence in our application. This presentation will teach you how to guide test writing using code coverage using Cypress open-source test runner.",
+    "slug": "write-a-cypress-test",
+    "url": "/bahmutov/write-a-cypress-test",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-02-25 02:56:39 UTC",
+    "description": "JavaScript is an interesting language. It can mimic almost any style you want: procedural, object-oriented, functional, etc. In this presentation, I will take a simple problem and will solve it using different approaches. With each step, we will see the power of the new approach to take the complexity away, while still being the JavaScript we all love to hate.",
+    "slug": "js-from-imperative-to-frp",
+    "url": "/bahmutov/js-from-imperative-to-frp",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-02-23 02:59:10 UTC",
+    "description": "This talk shows how quick and simple it can be to write end-to-end tests for web applications – if your testing tools are not fighting you all the time. I will go over writing E2E tests using Cypress.io (https://www.cypress.io/), controlling the network during tests, using visual testing and setting up continuous integration to perform E2E tests on each commit.",
+    "slug": "automated-testing",
+    "url": "/bahmutov/automated-testing",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2020-01-11 20:52:52 UTC",
+    "description": "In this presentation I will show how simple the continuos integration can be with GitHub Actions. They are powerful, have generous limits for public repositories and can be easily reused",
+    "slug": "github-actions-in-action",
+    "url": "/bahmutov/github-actions-in-action",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-10-24 20:42:02 UTC",
+    "description": "This talk shows how quick and simple it can be to write end-to-end tests for web applications – if your testing tools are not fighting you all the time. I will go over writing E2E tests using Cypress.io, controlling the network during tests, using visual testing and setting up continuous integration to perform E2E tests on each commit. Video at https://www.youtube.com/watch?v=JL3QKQO80fs",
+    "slug": "state-of-the-art",
+    "url": "/bahmutov/state-of-the-art",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-10-07 15:52:43 UTC",
+    "description": "Modern day web applications are hard to test. They are dynamic, constantly asking for new data and updating the DOM. They are changing, loading new code as the user browses. They are unpredictable due to network delays and asynchronous UI updates. The existing tools that run outside the browser, sending imperative commands during the test, have hard times keeping up with the apps. Learn how to improve your job performance and reduce stress with Cypress, a less flaky, simpler to understand and debug, open source testing tool with excellent documentation that can be used to write end-to-end tests, run them locally and on CI, and give the entire team confidence that the user will not see a broken application in production.",
+    "slug": "sqgne",
+    "url": "/bahmutov/sqgne",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-09-26 13:55:46 UTC",
+    "description": "Unit testing is hard and time-consuming; and worse - the users and the customers do not care! They only want the features working in the production system, everything else is development overhead. If this is the case, how do we improve web application quality? How do we catch the bugs early? How can we test the deployed system effectively? This presentation tries to answer many of these questions in a web framework agnostic way using open source test runner Cypress.io.",
+    "slug": "cypress-montreal-react",
+    "url": "/bahmutov/cypress-montreal-react",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-09-17 01:58:04 UTC",
+    "description": "A simple technique to disable the script injection attacks on your web pages is to disable the inline JavaScript. This means that most popular ways to inject variables and code fragments into your pages will have to change. I will show the JavaScript to JavaScript rendering engine for Express that allows you to set very strict and safe Content-Security-Policy on your website. Not only my approach is much safer, but it will be very testable as well.",
+    "slug": "secure-the-front-end",
+    "url": "/bahmutov/secure-the-front-end",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-08-17 15:37:42 UTC",
+    "description": "Understand the differences between imperative, object-oriented, functional, reactive and other styles of programming JavaScript can mimic. Each style brings more power and elegance to your code, and I will show how to adopt the new paradigm without losing your mind in complexity.",
+    "slug": "journey-coder-cruise",
+    "url": "/bahmutov/journey-coder-cruise",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-07-31 23:21:26 UTC",
+    "description": "There is a world beyond simple \"console.log\" statements. In this talk, I will show the best practices for logging from Node programs. Good logs are essential when trying to understand the real-world behavior of your program, debugging a failure and even during API testing.",
+    "slug": "global-extinction",
+    "url": "/bahmutov/global-extinction",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-07-29 21:46:19 UTC",
+    "description": "There is a world beyond simple \"console.log\" statements. In this talk, I will show the best practices for logging from Node programs. Good logs are essential when trying to understand the real-world behavior of your program, debugging a failure and even during API testing.",
+    "slug": "log-it-like-you-mean-it",
+    "url": "/bahmutov/log-it-like-you-mean-it",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-06-25 01:09:11 UTC",
+    "description": "In this talk, I will use code coverage to guide end-to-end tests writing and visual regression testing to avoid style regressions. I will also explain how asynchronous tests can be made to look synchronous. Presented at BostonJS meetup, June 2019",
+    "slug": "visual-testing-and-code-coverage",
+    "url": "/bahmutov/visual-testing-and-code-coverage",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-05-29 08:44:05 UTC",
+    "description": "In this talk, I am showing how to pro-actively prevent errors from creeping into production. I will use end-to-end tests, code coverage to guide their writing and visual regression testing to avoid style regressions. Presented at JSNation Amsterdam 2019. Video https://youtu.be/OYUdlXY1joQ  ",
+    "slug": "testing-tools-and-their-friends",
+    "url": "/bahmutov/testing-tools-and-their-friends",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-05-15 16:22:54 UTC",
+    "description": "Have you heard: e2e testing is easy! It is easy to get started, it is easy to write complex tests, it is easy to run on CI, it is easy to do visual testing and it is even easy to collect code coverage.",
+    "slug": "good-news-about-end-to-end-testing",
+    "url": "/bahmutov/good-news-about-end-to-end-testing",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-04-18 12:22:17 UTC",
+    "description": "Presentation for Cypress.io + Applitools webinar covering: creating a test user, logging in via API, test shortcuts, clearing the data before tests. Uses the real-world app as an example.",
+    "slug": "flawless-tests",
+    "url": "/bahmutov/flawless-tests",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-04-02 19:18:53 UTC",
+    "description": "Cypress.io gives you a fast and reliable way to ensure your app is functioning exactly as intended on every commit. Using it with Percy’s visual testing capability provides end-to-end confidence. Join Mike Fotinakis, Co-Founder and CEO of Percy, and Cypress’ VP of Engineering, Gleb Bahmutov, on Wednesday, April 10 at 10 am PDT / 1 pm EDT to learn about the value of using Cypress and Percy, both independently and together, as well as to get an in-depth look at integrating and writing tests for your needs. Video at https://www.youtube.com/watch?v=MXfZeE9RQDw",
+    "slug": "visual-testing-with-percy",
+    "url": "/bahmutov/visual-testing-with-percy",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-03-21 01:23:08 UTC",
+    "description": "JSON schemas is a portable declarative way to describe the shape of an object. In end-to-end testing, we can use these schemas to validate data fixtures, confirm server responses and sanitize data flowing through the application and tests for simpler assertions. In blog post form at https://www.cypress.io/blog/2018/07/10/json-schemas-are-your-true-testing-friend/",
+    "slug": "json-schemas-update",
+    "url": "/bahmutov/json-schemas-update",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-03-15 01:04:41 UTC",
+    "description": "In our company we have a lot of data flowing from the user’s applications (and we are backwards compatible) to the API, then this data is displayed in the web dashboard. How do we avoid accidentally breaking API contracts, while adding new features? We have started using json-schema convention and wrote a few tools around it to lock down our API protocols. Now we have full confidence in our tests, and major refactoring and releases happen without hiccups. Bonus: our tests are realistic, elegant and easy to understand. Presented at Confoo.CA 2019. ",
+    "slug": "json-schemas-confoo",
+    "url": "/bahmutov/json-schemas-confoo",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-03-09 14:57:21 UTC",
+    "description": "Example of a presentation where the speaker can pick where to \"jump\" from a slide using linked elements",
+    "slug": "dynamic-presentation-example",
+    "url": "/bahmutov/dynamic-presentation-example",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-03-06 02:28:43 UTC",
+    "description": "The Internet of simple textual requests and responses is done. Finished. Obsolete. The modern web is a web of binary, persistent connections like WebSockets, WebRTC, HTTP/2 and QUIC. Today's Internet is a strange place where things are received before they are requested (Server Push) and a web application work without the Web (offline support with Service Worker). This presentation is going to be your map to this new terrain.",
+    "slug": "http-confoo",
+    "url": "/bahmutov/http-confoo",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-03-03 14:45:23 UTC",
+    "description": "What is the smallest and purest front-end framework out there? Did someone say Elm? I said smallest! The answer is Hyperapp - a really tiny, Elm-inspired pure functional web framework that combines the best features of today's hottest frameworks. It has built-in state management, pure functions, virtual DOM and still is easy to learn in a few minutes. Come to this session to learn how Hyperapp allows one to build a complete web application from small pure parts that are easy to code, simple to understand and convenient to test. NERD Summit 2019 video https://www.youtube.com/watch?v=8pcx0XitUCc",
+    "slug": "hyperapp-intro",
+    "url": "/bahmutov/hyperapp-intro",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-02-17 03:44:42 UTC",
+    "description": "* Cypress architecture * Declarative test syntax * Code coverage updates * CircleCI Orbs * Component and API testing. SeleniumCamp 2019 Kyiv, Ukraine Video at https://www.youtube.com/watch?v=AYlFF_KTFl8",
+    "slug": "selenium-camp-part-2",
+    "url": "/bahmutov/selenium-camp-part-2",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-02-16 16:25:04 UTC",
+    "description": "Part 1. Modern web application testing is a hard and ungrateful job. But maybe this is just because we still don’t have a great tool for testing, that could be our friend not enemy? In this talk, I will present you Cypress.io – free test runner made without Selenium or WebDriver. With Cypress you could make your tests quick, simple and useful. Presented at SeleniumCamp in Ukraine, video at https://www.youtube.com/watch?v=hk4qtXgL12k",
+    "slug": "selenium-camp-part-1",
+    "url": "/bahmutov/selenium-camp-part-1",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-01-23 02:08:23 UTC",
+    "description": "In this presentation, I will show how to get type checks without going all the way to TypeScript. We will look at how you can write JSDoc comments to describe types. I will also show how we provide external TypeScript definitions in Cypress end-to-end tests where the tests themselves are written in JavaScript.",
+    "slug": "ts-without-ts",
+    "url": "/bahmutov/ts-without-ts",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2019-01-05 21:45:13 UTC",
+    "description": "Writing maintainable end-to-end tests is challenging. Often testers create another layer of indirection on top of the web page called page objects to execute common actions. In this presentation, I argue that page objects are a bad practice, and suggest dispatching actions directly to the application’s internal logic. This works great with a modern test runner like Cypress.io that runs the test code directly alongside the application’s code inside the browser.",
+    "slug": "app-actions",
+    "url": "/bahmutov/app-actions",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-12-15 13:58:41 UTC",
+    "description": "Code coverage is useful to make sure every line of code with unit tests. But it has a few shortcomings and is mostly useless for end-to-end tests. What else can we do to target out end-to-end tests? In this presentation, I will touch on element coverage that seems to be useful when covering web application tests. In blog post form at https://www.cypress.io/blog/2018/12/20/element-coverage/",
+    "slug": "test-coverage-update",
+    "url": "/bahmutov/test-coverage-update",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-12-14 15:47:58 UTC",
+    "description": "Page Objects vs functions vs custom commands in writing Cypress end-to-end tests. Work in progress. Read full blog post at https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/",
+    "slug": "page-objects-in-cypress",
+    "url": "/bahmutov/page-objects-in-cypress",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-12-13 01:34:02 UTC",
+    "description": "Testing is hard. End-to-end testing is really hard. But have you ever wondered if maybe our tools are the ones to blame? What if we could completely rethink testing tools to be fast, useful and effective? Let me show you how to quickly test any web application using Cypress.io - a modern open source test runner designed to make you more productive. Don't believe the hype? Come see a Cypress demo for yourself and prepare to be amazed.",
+    "slug": "cypress-sf-js",
+    "url": "/bahmutov/cypress-sf-js",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-11-29 20:19:19 UTC",
+    "description": "Cypress makes setting up, writing, running and debugging tests for web applications easy with their all-in-one testing framework, assertion library, with mocking and stubbing. With the newly released CircleCI Orbs feature, you can quickly set up Cypress on CircleCI to run all of your tests on a single machine or on several machines in parallel to cut down the testing time. Video at https://www.youtube.com/watch?time_continue=59&v=J-xbNtKgXfY",
+    "slug": "circleci-cypress-orb",
+    "url": "/bahmutov/circleci-cypress-orb",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-11-13 02:32:09 UTC",
+    "description": "Testing is hard. Realistic testing of web applications in a real browser is even harder. In this presentation, I will show you how to quickly test any web application using cutting-edge tools. Then we will see how to build high-quality software from individual modules using appropriate tools and creating an environment where bugs can be discovered immediately and fixed quickly. This session will give tremendous value for anyone programming in JavaScript or building modern web applications. Øredev 2018 Video at https://vimeo.com/311931793",
+    "slug": "well-tested-software",
+    "url": "/bahmutov/well-tested-software",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-11-11 14:58:44 UTC",
+    "description": "What is the smallest and purest front-end framework out there? Did someone say Elm? I said smallest! The answer is Hyperapp - a really tiny, Elm-inspired pure functional web framework that combines the best features of today's hottest frameworks. It has built-in state management, pure functions, virtual DOM and still is easy to learn in a few minutes. Come to this session to learn how Hyperapp allows one to build a complete web application from small pure parts that are easy to code, simple to understand and convenient to test. Øredev 2018 Video at https://vimeo.com/302036840",
+    "slug": "hyperapp",
+    "url": "/bahmutov/hyperapp",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-10-20 23:49:08 UTC",
+    "description": "Testing is hard. End-to-end testing is really hard. But have you ever wondered if maybe our tools are the ones to blame? What if we could completely rethink testing tools to be fast, useful and effective? Let me show you how to quickly test any web application using Cypress.io - a modern open source test runner designed to make you more productive. Don't believe the hype? Come see a Cypress demo for yourself and prepare to be amazed.",
+    "slug": "cypress-reactive-roadshow",
+    "url": "/bahmutov/cypress-reactive-roadshow",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-10-11 20:36:18 UTC",
+    "description": "Intro to end-to-end test parallelization and grouping with Cypress Dashboard service. Part of Cypress webinar on October 16 2018. Video at https://www.youtube.com/watch?v=FfqD1ExUGlw",
+    "slug": "cy-parallelization",
+    "url": "/bahmutov/cy-parallelization",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-10-06 17:36:45 UTC",
+    "description": "Cypress.io is an open source free end-to-end test runner that runs your web application inside an iframe in a browser it can closely control. This architecture completely changes how your tests behave (hint: no flake), what you can test (pretty much everything), and why you write more e2e tests (because you love writing them). In this talk, I will give a very brief intro to Cypress itself but mostly will concentrate on how it changes the entire testing experience. Cypress users can test web applications by observing just the external behavior (DOM, network calls, storage) or can reach deep inside the application's code, and I will explain the trade-offs. Finally, I will discuss why Cypress tests do not use \"async / await\" keywords, and instead look like declarative reactive streams. Video https://www.youtube.com/watch?v=swpz0H0u13k from ReactiveConf 2018",
+    "slug": "reactive-conf",
+    "url": "/bahmutov/reactive-conf",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-09-25 14:18:43 UTC",
+    "description": "A quick introduction to Cypress.io end-to-end test runner. - install - basic GUI tests - headless run - network control and fixtures - mocking JS methods",
+    "slug": "cypress-intro",
+    "url": "/bahmutov/cypress-intro",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-09-23 16:33:08 UTC",
+    "description": "Testing Vue applications can be quick and painless. In this presentation, I will show how to test small parts of Vue apps using vue-test-utils, and how to move \"up\" the testing pyramid to component and end-to-end tests using Cypress. Presented at VueNYC meetup in Sept 2018. Video at https://www.youtube.com/watch?v=uowaTHQDcKc",
+    "slug": "end-vue-end-testing",
+    "url": "/bahmutov/end-vue-end-testing",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-09-08 12:15:00 UTC",
+    "description": "Manually releasing new software versions is dangerous. You might forget to test it before releasing, or you might release a platform-specific version, instead of a general one. Moving the release to the CI and automating it is the key to the repeatable and robust release process. In this talk, I will show how to set up a completely automated yet robust release system with semantic versioning for JavaScript using NodeJS. Presented at VermontCodeCamp 2018.",
+    "slug": "semantic-release",
+    "url": "/bahmutov/semantic-release",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-08-23 01:42:31 UTC",
+    "description": "In our company we have a lot of data flowing from the user’s applications (and we are backwards compatible) to the API, then this data is displayed in the web dashboard. How do we avoid accidentally breaking API contracts, while adding new features? We have started using json-schema convention and wrote a few tools around it to lock down our API protocols. Now we have full confidence in our tests, and major refactoring and releases happen without hiccups. Bonus: our tests are realistic, elegant and easy to understand. Presented at Boston JS meetup. ",
+    "slug": "json-schemas",
+    "url": "/bahmutov/json-schemas",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-08-22 01:34:16 UTC",
+    "description": "This presentation showcases Cypress.io - an open source, MIT-licensed end-to-end test runner that radically breaks with existing technologies (like Selenium, WebDriver) to be able to test _modern_ web applications. The main focus of Cypress is to give every developer a tool that helps rather than hinders the development process. Thus it has such features as GUI with time traveling debugger and DOM snapshots; headless run mode on CI with video recording by default; full browser DevTools to inspect the application's behavior; spying and stubbing of network calls; and many other advantages compared to existing solutions. Presented at Ministry of Testing Rio de Janeiro.",
+    "slug": "painless",
+    "url": "/bahmutov/painless",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-06-20 16:45:08 UTC",
+    "description": "Testing is hard. End-to-end testing is really hard. But maybe it is hard because our tools are not up to the task. What if we could redesign the testing experience from the ground up to be fast, useful and effective? In this presentation, I will show Cypress - an open source end-to-end test runner designed from scratch to be useful to developers. Come to learn how testing can be ... a pleasure. AngularBoston 2018, video at https://youtu.be/wQfS3mCDVO0 ",
+    "slug": "cypress-at-ng-boston",
+    "url": "/bahmutov/cypress-at-ng-boston",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-06-06 02:57:22 UTC",
+    "description": "In this presentation I will show all the tools I use to write software that does not break but keeps the users happy. Static types, exception monitoring, unit tests with snapshots, randomized testing, code and data coverage, code complexity metrics and awesome end to end testing tools - the list is long and keeps on growing! The techniques I plan to show are applicable to every framework and environment. Presented at BuzzJS 2018, video at https://youtu.be/1PMxLTfh6lo?t=1",
+    "slug": "quality-software",
+    "url": "/bahmutov/quality-software",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-05-22 03:51:18 UTC",
+    "description": "Testing is hard. End to end testing is really hard. But maybe it is hard because our tools are not up to the task. What if we could redesign the testing experience from the ground up to be fast, useful and effective? Presented at AngularNYC meetup in May 2018, video at https://www.youtube.com/watch?v=wApmbgPGmqQ",
+    "slug": "cypress-at-angularnyc",
+    "url": "/bahmutov/cypress-at-angularnyc",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-05-22 02:18:35 UTC",
+    "description": "Testing is hard. End to end testing is really hard. But maybe it is hard because our tools are not up to the task. What if we could redesign the testing experience from the ground up to be fast, useful and effective? Presented at ReactNYC meetup in May 2018",
+    "slug": "cypress-at-reactnyc",
+    "url": "/bahmutov/cypress-at-reactnyc",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-05-08 02:41:40 UTC",
+    "description": "Unit testing is hard and time consuming; and worse - the users and the customers do not care! They only want the features working in the production system, everything else is development overhead. If this is the case, how do we improve the web application quality? How do we catch the bugs early? How can we test the deployed system effectively? And finally, how do we get rid of Selenium? This presentation tries to answer many of these questions in a web framework agnostic way. Presented at WeAreDevs Congress 2018, video at https://www.youtube.com/watch?v=p38bIMC-YOU",
+    "slug": "e2e-in-the-future",
+    "url": "/bahmutov/e2e-in-the-future",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-03-31 15:55:15 UTC",
+    "description": "What is the smallest and purest front end framework out there? Did someone say Elm? I said smallest! The answer is Hyperapp - a really tiny, Elm-inspired pure functional web framework that combines the best features of today's hottest frameworks. It has built-in state management, pure functions, virtual DOM and still is easy to learn in 30 minutes. Presented at Boston Code Camp in April 2018 and BostonJS meetup",
+    "slug": "hyped",
+    "url": "/bahmutov/hyped",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-03-26 16:42:54 UTC",
+    "description": "Testing is hard. End to end testing is really hard. But maybe it is hard because our tools are not up to task. What if we could redesign the testing experience from the ground up to be fast, useful and effective?  Let me show you how to quickly test a React application using Cypress.io - an open source modern test runner that replaces Selenium. Don't believe the hype - come see Cypress demo for yourself, and I guarantee you will start writing tests. Presented at ReactJS Boston meetup April 2018. Video at https://www.youtube.com/watch?v=lgurVvQsOTY",
+    "slug": "painless-react-testing",
+    "url": "/bahmutov/painless-react-testing",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-03-17 17:15:30 UTC",
+    "description": "Let us look at JavaScript - the language that runs the Internet. We will learn how new features are added to the language, how the modern syntax looks, and the main tools for testing, transpiling and bundling JavaScript applications. Anyone looking to start with JS or upgrade development skills will benefit from this presentation. Presented at NERD summit 2018.",
+    "slug": "modern-js",
+    "url": "/bahmutov/modern-js",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-03-16 15:03:29 UTC",
+    "description": "I will start with the history of HTTP, and how it changes from 0.9 to 1.0 and to 1.1. I will explain the performance benefit of HTTP/2, the state of support and a very interesting performance feature (Server Push). Then I will talk about real time systems that use Web Sockets for persistent data connection. Then I will talk about data synchronization solutions via in-browser database that can sync automatically. I will talk about offline support and instant web applications using ServiceWorker, and finally I will describe why HTTP/2 is going to be replaced by a protocol named QUIC based on UDP. Presented at NERDSummit 2018",
+    "slug": "http-nerd-summit",
+    "url": "/bahmutov/http-nerd-summit",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-03-02 02:18:39 UTC",
+    "description": "WebWorkers have been very useful for performing computation-intensive tasks in parallel, preventing browser lockup. Recently a new beast has appeared: the ServiceWorker. I will show how to use both WebWorkers and a ServiceWorker to add new features to the web development: rendering HTML from data without blocking the main thread, supporting offline mode, computation-intensive tasks. ConFoo 2018",
+    "slug": "workers-of-the-world-unite",
+    "url": "/bahmutov/workers-of-the-world-unite",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-02-28 03:23:54 UTC",
+    "description": "Testing Vue web application using Cypress. End to end testing and integration testing of components. Presented at Vue.js Boston meetup on the last day of February 2018.",
+    "slug": "testing-vue",
+    "url": "/bahmutov/testing-vue",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-02-24 18:20:02 UTC",
+    "description": "Checklists have been known to reduce errors during air flights and surgeries. Why don't we use one for our JavaScript projects? I want my NPM module to be useful, robust, and well-documented. Here is my recipe for a module that everyone can rely on: a simple checklist. Rather than forcing everyone to do the same, the checklist only reminds me to do unit testing, publish smaller module, have good API examples, and lots of other useful things. ConFoo 2018",
+    "slug": "node-checklist",
+    "url": "/bahmutov/node-checklist",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2018-02-10 15:04:38 UTC",
+    "description": "Presentation for AssertJS 2018: testing pyramid, the difference in unit tests vs integration tests, using end to end testing tool to run unit tests for components, various types of diffing: snapshot testing, screenshot diffing, application behavior diffing. Video at https://www.youtube.com/watch?v=5FnalKRjpZk",
+    "slug": "assertjs",
+    "url": "/bahmutov/assertjs",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-11-15 03:28:34 UTC",
+    "description": "It used to be hard to actually run code in production. I needed to rent a rack server from a company, login into the machine, set it up, then periodically deploy new application version. Deploying often meant overriding the existing running application, taking a server offline. Long, cumbersome, and error prone. No wonder we did deploys once a month! Luckily there are 4 things that recently revolutionized the way I deploy and run code: Docker, Dokku, Kubernetes and Zeit Now.",
+    "slug": "think-inside-the-box",
+    "url": "/bahmutov/think-inside-the-box",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-11-14 19:01:37 UTC",
+    "description": "Let us look at JavaScript - the language that runs the Internet. We will learn how new features are added to the language, how the modern syntax looks, and the main tools for testing, transpiling and bundling JavaScript applications. Anyone looking to start with JS or upgrade development skills will benefit from this presentation. Presented at Boston Code Camp 2017.",
+    "slug": "modern-javascript-boscc",
+    "url": "/bahmutov/modern-javascript-boscc",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-11-06 03:31:22 UTC",
+    "description": "Overview of modern JavaScript language and most commonly used tools. Browsers, servers, desktop and every place in between where JS can run. Code snippets and ServiceWorkers. Presented at Øredev 2017",
+    "slug": "future-belongs-to-js",
+    "url": "/bahmutov/future-belongs-to-js",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-11-03 02:05:05 UTC",
+    "description": "Writing solid code is hard. Writing portable code that can run on the server and in the browser is harder. Writing readable code that is easy to modify and extend might be impossible. Let us try achieve all three goals by writing JavaScript in functional style. JS is no Haskell, but can mimic a traditional functional language pretty well, as I will show in this presentation. Plus everything in the world can run JavaScript, so FP in JS knowledge applies very widely. Presented at Øredev 2017 video at https://vimeo.com/242030169",
+    "slug": "fp-apps",
+    "url": "/bahmutov/fp-apps",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-10-03 21:49:32 UTC",
+    "description": "Unit testing is hard and time consuming; and worse - the users and the customers do not care! They only want the features working in the production system, everything else is development overhead. If this is the case, how do we improve the web application quality?  How do we catch the bugs early?\n How can we test the deployed system effectively? And finally, how do we get rid of Selenium? This presentation tries to answer many of these questions in a web framework agnostic way. BostonJS meetup. Video at https://www.youtube.com/watch?v=D20nX2zAypk",
+    "slug": "boston-js-testing",
+    "url": "/bahmutov/boston-js-testing",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-09-17 17:31:56 UTC",
+    "description": "Snapshot Testing is a recent technique in unit testing and automated testing in general that's been gaining some traction, thanks to a new excellent test runner called Jest. Gleb Bahmutov from Cypress.io will explain to us what snapshot testing is, and how to use his family of NPM modules snap-shot-* to go beyond static data. Presented at Atlanta JS Meetup, video at https://www.youtube.com/watch?v=MAKRJJ06Nw4",
+    "slug": "snapshot-testing",
+    "url": "/bahmutov/snapshot-testing",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-09-10 21:25:22 UTC",
+    "description": "The testing pyramid is a bad bad practice; it puts focus on unit tests, while your users really care about an end to end quality. For web developers, we are open sourcing a very powerful E2E tool called Cypress that is capable of giving your confidence that the app is going to work. Presented at AngularDevSummit 2017",
+    "slug": "effective-e2e-testing-with-cypress",
+    "url": "/bahmutov/effective-e2e-testing-with-cypress",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-09-04 16:02:20 UTC",
+    "description": "Let's walk through the history of HTTP, its original design goals and how they shape the modern Internet. We will look at the current standard, and what is coming tomorrow. We will also learn and refresh a whole bunch of acronyms: TCP, HTTP, RFC, IETF, UPD, QUIC. Every developer working or even using WWW will benefit from this presentation.",
+    "slug": "hello-http",
+    "url": "/bahmutov/hello-http",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-07-24 01:58:14 UTC",
+    "description": "A geometric shape is simple to remember and visualize concept, familiar to any child. In software development we have a few concepts with associated shapes: agile is shown as a spiral curve, waterfall as, well, a waterfall, etc. In this presentation I will show the shapes that describe other modern development approaches and architectural styles.",
+    "slug": "shapes-of-development",
+    "url": "/bahmutov/shapes-of-development",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-07-08 15:52:34 UTC",
+    "description": "I will walk through the history of HTTP, its original design goals and how they shape the modern Internet. We will look at at the current standard, and what is coming tomorrow. Through the presentation I will point at some security issues already found with HTTP/2 and its implementation.",
+    "slug": "using-http2",
+    "url": "/bahmutov/using-http2",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-05-23 03:25:03 UTC",
+    "description": "The Internet of simple textual requests and responses is done. Finished. Obsolete. The modern web is a web of binary, persistent connections like WebSockets, WebRTC and HTTP/2. Presented at NDC Oslo 2017, video at https://www.youtube.com/watch?v=BhTbOtuSUzQ",
+    "slug": "http",
+    "url": "/bahmutov/http",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-05-06 18:14:38 UTC",
+    "description": "There are a few web frameworks that are all the rage right now: React, VueJs, but which frameworks are functional AND reactive? Dr. Gleb Bahmutov will talk about functional reactive web applications you can write today, and why they are going to rock tomorrow. Presented at Maine.JS meetup in May of 2017",
+    "slug": "pure-magic",
+    "url": "/bahmutov/pure-magic",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-04-02 20:12:59 UTC",
+    "description": "What makes a framework great? How do you have others give it a try? How do you make sure the web application runs correctly? What is a brass ball valve? Video at https://vimeo.com/album/4578937/video/216829554",
+    "slug": "cycleconf-2017",
+    "url": "/bahmutov/cycleconf-2017",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-03-13 20:50:42 UTC",
+    "description": "Every JavaScript project requires 3rd party modules.  As soon as you depend on specific versions, your module falls behind.  I will show how to keep your software up to date without any effort  (as long as there are some tests). Everything will be automated and reliable;  it is like bringing an army of robots to help you.",
+    "slug": "self-improving-software-node-week",
+    "url": "/bahmutov/self-improving-software-node-week",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-03-04 22:45:22 UTC",
+    "description": "Every JavaScript project requires 3rd party modules.  As soon as you depend on specific versions, your module falls behind.  I will show how to keep your software up to date without any effort  (as long as there are some tests). Everything will be automated and reliable;  it is like bringing an army of robots to help you.",
+    "slug": "self-improving-software-confoo",
+    "url": "/bahmutov/self-improving-software-confoo",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-03-04 18:18:42 UTC",
+    "description": "In this talk I will show how to remove lots and lots of unnecessary code from your application. Counter variables, wrapper functions, callbacks - they can all be removed using utility libraries or even built-in JavaScript ES5 language features. In each instance there will be a lot less code, but it will be more robust, manageable and simpler to reason about and test. Presented at ConFoo.CA in March 2017",
+    "slug": "remove-the-boilerplate-confoo",
+    "url": "/bahmutov/remove-the-boilerplate-confoo",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-02-22 03:26:24 UTC",
+    "description": "Testing is hard and does not pay. Snapshot testing is a way to increase the efficiency of your unit tests while removing a lot of boilerplate code. Recently Jest and Ava testing framework added this feature. I have written a framework-agnostic snapshot testing library and would like to share techniques and design decisions that went into this library.",
+    "slug": "snapshot-testing-the-hard-way",
+    "url": "/bahmutov/snapshot-testing-the-hard-way",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2017-01-17 17:51:23 UTC",
+    "description": "How to write software that works now and will keep working in the future. Plus career advice! Presented as a guest lecture at MIT 6.148 class, January 20th 2017. Developer value, JavaScript modules, semver, linting, unit testing, e2e testing. Video at https://www.youtube.com/watch?v=MHNB6CGENKo",
+    "slug": "working-software",
+    "url": "/bahmutov/working-software",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-11-13 01:58:00 UTC",
+    "description": "The line between the server and the modern browser is blurry. Transpiling code, rendering static markup, smart caching were traditionally done on the server. These features made the jump to the browser by using ServiceWorkers.",
+    "slug": "browser-is-the-new-server-nodefest",
+    "url": "/bahmutov/browser-is-the-new-server-nodefest",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-10-01 13:37:20 UTC",
+    "description": "The line between the server and the modern browser is blurry. Transpiling code, rendering static markup, smart caching were traditionally done on the server. These features made the jump to the browser by using ServiceWorkers. Video at https://www.youtube.com/watch?v=5zOaN_FYXwk",
+    "slug": "browser-is-the-new-server",
+    "url": "/bahmutov/browser-is-the-new-server",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-09-05 17:13:10 UTC",
+    "description": "What do Chrome extensions written in Angular and secure websites have in common? They take Content Security Policy seriously! In this presentation I will show how to secure your web application against cross-site scripting attacks and insecure 3rd party code.",
+    "slug": "angular-connect-2016",
+    "url": "/bahmutov/angular-connect-2016",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-07-31 17:42:43 UTC",
+    "description": "The principles and basics of functional programming in JavaScript using small coding problems. Pure functions, partial application, composition, iteration, lexical scope, Ramda library.",
+    "slug": "fun-javascript-workshop",
+    "url": "/bahmutov/fun-javascript-workshop",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-07-10 23:06:34 UTC",
+    "description": "Cycle.js - functional reactive framework for pure web apps. Presented at FrontEndCamp at United Nations NYC July 2016. Links and additional resources at https://glebbahmutov.com/blog/cyclejs-frontendcamp/",
+    "slug": "cyclejs-frontendcamp",
+    "url": "/bahmutov/cyclejs-frontendcamp",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-05-27 12:47:20 UTC",
+    "description": "Should I learn and use Angular 1, React, Angular 2, Ember or something else? What are the common\nfeatures they all share? How are they different? Are there \"better\" frameworks that will be\npopular next year? I will show a couple of new approaches that should be part of any future-proof framework: reactive streams for managing the data flow, virtual DOM abstractions for speed, testability and performance tools built right into the framework. The presentation might be controversial, but the struggle to pick \"the next best thing\" is very real. Video at https://www.youtube.com/watch?v=ji8hqDi2BnA",
+    "slug": "buzzjs",
+    "url": "/bahmutov/buzzjs",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-05-16 02:14:02 UTC",
+    "description": "How do we convince / train developers used to imperative programming style to switch to functional or even reactive programming? I show the same example implemented in multiple styles to highlight the advantages one would get by going from imperative to object-oriented, functional, lazy evaluation, promise-based, event emitters, and finally reactive approach.  The short examples are in JavaScript - the most widely used functional language today.",
+    "slug": "oscon",
+    "url": "/bahmutov/oscon",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-04-19 02:00:01 UTC",
+    "description": "Transition from the traditional Model-View-Controller application to Functional-Reactive-Programming. Presented at CycleConf 2016. Video at https://www.youtube.com/watch?v=-PCq4pXaDZw and all links are in blog post https://glebbahmutov.com/blog/cycle-conf/",
+    "slug": "mvc-frp",
+    "url": "/bahmutov/mvc-frp",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-03-31 03:31:03 UTC",
+    "description": "This presentation will show how to lock down the front end JavaScript code using Content-Security-Policy. I will also show how to prevent sensitive files from being committed to your repos or NPM registry. Presented at Boston Code Camp 25 on April 2nd 2016.",
+    "slug": "secure-front-end-from-node",
+    "url": "/bahmutov/secure-front-end-from-node",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-03-30 01:38:27 UTC",
+    "description": "How to remove unnecessary code from your code, including asynchronous code and unit tests. Presented at Boston Code Camp 25 on April 2nd 2016",
+    "slug": "remove-the-boilerplate-boscc25",
+    "url": "/bahmutov/remove-the-boilerplate-boscc25",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-03-13 21:02:47 UTC",
+    "description": "ServiceWorkers for faster web application boot up. Instant web applications, self-rewriting apps, profiling, ES2015 and modern browsers. Presented at the Web Performance NYC meetup. Video https://youtu.be/4axZ3D75Llg",
+    "slug": "workers-of-the-world-nyc",
+    "url": "/bahmutov/workers-of-the-world-nyc",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-03-07 17:10:10 UTC",
+    "description": "How to remove unnecessary code from your code, including asynchronous code and unit tests. Presented at NationJS Node day 2016 in Washington DC.",
+    "slug": "remove-the-boilerplate-nationjs",
+    "url": "/bahmutov/remove-the-boilerplate-nationjs",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-02-22 22:20:50 UTC",
+    "description": "Testing Angular code requires too much boilerplate. In this presentation I will show ng-describe - a BDD helper that removes all extra code and allows to start unit testing in seconds.",
+    "slug": "testing-ng-confoo",
+    "url": "/bahmutov/testing-ng-confoo",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2016-01-20 22:14:39 UTC",
+    "description": "This presentation will show how to lock down the front end JavaScript code using Content-Security-Policy. I will also show how to prevent sensitive files from being committed to your repos or NPM registry ",
+    "slug": "nodejs-for-secure-websites",
+    "url": "/bahmutov/nodejs-for-secure-websites",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-11-14 23:02:10 UTC",
+    "description": "How do we convince / train developers used to imperative programming style to switch to functional or even reactive programming? I show the same example implemented in multiple styles to highlight the advantages one would get by going from imperative to object-oriented, functional, lazy evaluation, promise-based, event emitters, and finally reactive approach.  The short examples are in JavaScript - the most widely used functional language today.",
+    "slug": "javascript-journey-boston-code-camp-24",
+    "url": "/bahmutov/javascript-journey-boston-code-camp-24",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-10-22 14:15:31 UTC",
+    "description": "Humans learn best by example; good technical docs use lots of them. Yet all modern documentation tools (think jsdoc) making writing correct examples and maintaining them a chore. There is no tool support for syntax highlighting, or even guarantee that an example is correct or up to date. On the other hand, solid software projects have lots of well tested, up to date examples. We call them unit tests! In this presentation I will show how to take the unit tests and transform into syntax-agnostic human-friendly examples to be plugged into your docs.",
+    "slug": "explain-with-tests",
+    "url": "/bahmutov/explain-with-tests",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-10-22 13:52:45 UTC",
+    "description": "В этом докладе я покажу самые последнии идеи для достижения надежного программного обеспечения для веб: от data-coverage (вместо code-coverage) до тестирования недоступого кода (например, внутри private JavaScript closures), от минимизации boilerplate до тестирования веб-приложений без помощи браузеров; эти решения помогут быстро и дешево достичь высокого уровня качества.",
+    "slug": "future-of-testing",
+    "url": "/bahmutov/future-of-testing",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-10-14 19:48:44 UTC",
+    "description": "Once your Angular application has the features you need, the next step is usually focused on improving its performance, such as the initial load time and responsiveness to user’s commands. The application has to execute quickly in order to be useful. Is the Angular framework fast or slow? I argue that it is very fast, but requires you to know how to measure and optimize the right bottlenecks.",
+    "slug": "turn-to-11",
+    "url": "/bahmutov/turn-to-11",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-10-06 17:46:23 UTC",
+    "description": "How to remove unnecessary code from your code, including asynchronous code and unit tests. Presented at NodeJS Italy in 2015",
+    "slug": "remove-the-boilerplate",
+    "url": "/bahmutov/remove-the-boilerplate",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-09-20 21:40:10 UTC",
+    "description": "A presentation for prospective candidate who are interested in joining Kensho. What we do, how we do it, why someone should join us, and how to ace our interview.",
+    "slug": "kensho-candidates",
+    "url": "/bahmutov/kensho-candidates",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-09-19 22:04:22 UTC",
+    "description": "Testing Angular code requires too much boilerplate. In this presentation I will show ng-describe - a BDD helper that removes all extra code and allows to start unit testing in seconds. Then I will show ng-dice - a combination of dependency injection and code extraction for testing Angular taking advantage of Node require hooks.",
+    "slug": "ng-testing-angular-remote-conf",
+    "url": "/bahmutov/ng-testing-angular-remote-conf",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-09-16 21:05:42 UTC",
+    "description": "A few tips for organizing and delivering an effective presentation by carefully preparing the content",
+    "slug": "public-speaking",
+    "url": "/bahmutov/public-speaking",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-09-09 14:14:18 UTC",
+    "description": "Bend the JavaScript rules for powerful Angular applications: access the controller logic from the browser console, mock on the fly, load app from Node, unit test private functions. Presented at ManhattanJS meetup.",
+    "slug": "bend-the-rules",
+    "url": "/bahmutov/bend-the-rules",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-08-07 19:58:31 UTC",
+    "description": "Testing Angular code requires too much boilerplate. In this presentation I will show ng-describe - a BDD helper that removes all extra code and allows to start unit testing in seconds. Presented at AngularNYC meetup in November 2015, video at https://www.youtube.com/watch?v=9DMuLsWzqwg",
+    "slug": "ng-describe",
+    "url": "/bahmutov/ng-describe",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-07-18 01:13:15 UTC",
+    "description": "Any JavaScript project requires 3rd party modules. As soon as you depend on specific versions, your module falls behind. I will show how to keep your software up to date without any effort (as long as there are some tests). You can automatically upgrade dependencies for an individual project, a collection of projects. You can even see the anonymous version upgrade results across the public projects around the world to judge if a particular update is likely to succeed. What about projects that depend on your software? Before releasing a new version, you can test some or all of your dependencies against the new code.",
+    "slug": "self-improving-software-frontend-camp",
+    "url": "/bahmutov/self-improving-software-frontend-camp",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-07-16 14:55:26 UTC",
+    "description": "How do we convince / train developers used to imperative programming style to switch to functional or even reactive programming? I show the same example implemented in multiple styles to highlight the advantages one would get by going from imperative to object-oriented, functional, lazy evaluation, promise-based, event emitters, and finally reactive approach.  The short examples are in JavaScript - the most widely used functional language today.",
+    "slug": "javascript-journey-front-end-camp",
+    "url": "/bahmutov/javascript-journey-front-end-camp",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-07-15 15:54:01 UTC",
+    "description": "Any JavaScript project requires 3rd party modules. As soon as you depend on specific versions, your module falls behind. I will show how to keep your software up to date without any effort (as long as there are some tests). You can automatically upgrade dependencies for an individual project, a collection of projects. You can even see the anonymous version upgrade results across the public projects around the world to judge if a particular update is likely to succeed. What about projects that depend on your software? Before releasing a new version, you can test some or all of your dependencies against the new code.",
+    "slug": "self-improving-software-nyc",
+    "url": "/bahmutov/self-improving-software-nyc",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-06-25 17:20:07 UTC",
+    "description": "Chrome DevTools code snippets became my favorite tool when investigating performance bottlenecks in web applications. A JavaScript fragment can be stored as a named snippet in the \"Sources\" DevTools panel and executed in the current page's context, just as if it were a code executed in the browser's console.",
+    "slug": "code-snippets-dev-summer",
+    "url": "/bahmutov/code-snippets-dev-summer",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-06-23 01:18:20 UTC",
+    "description": "Any JavaScript project requires 3rd party modules. As soon as you depend on specific versions, your module falls behind. I will show how to keep your software up to date without any effort (as long as there are some tests). You can automatically upgrade dependencies for an individual project, a collection of projects. You can even see the anonymous version upgrade results across the public projects around the world to judge if a particular update is likely to succeed. What about projects that depend on your software? Before releasing a new version, you can test some or all of your dependencies against the new code.",
+    "slug": "self-improving-software",
+    "url": "/bahmutov/self-improving-software",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-04-30 02:32:16 UTC",
+    "description": "Hiring, training and graduation approaches that work for us at Kensho (data analysis and machine intelligence company in Boston and NYC)",
+    "slug": "rockstars",
+    "url": "/bahmutov/rockstars",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-04-09 02:34:38 UTC",
+    "description": "How do we convince / train developers used to imperative programming style to switch to functional or even reactive programming? I show the same example implemented in multiple styles to highlight the advantages one would get by going from imperative to object-oriented, functional, lazy evaluation, promise-based, event emitters, and finally reactive approach.  The short examples are in JavaScript - the most widely used functional language today.",
+    "slug": "javascript-journey-scotland-js",
+    "url": "/bahmutov/javascript-journey-scotland-js",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-03-03 19:03:52 UTC",
+    "description": "An experiment in offloading the Angular dirty checking and model update step to a separate browser thread. ng-conf 2015, Salt Lake City, Utah. Video at http://youtu.be/lceLw8ROUP8?list=PLOETEcp3DkCoNnlhE-7fovYvqwVPrRiY7",
+    "slug": "run-digest-cycle-in-web-worker",
+    "url": "/bahmutov/run-digest-cycle-in-web-worker",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-03-01 11:52:49 UTC",
+    "description": "How do we convince / train developers used to imperative programming style to switch to functional or even reactive programming? I show the same example implemented in multiple styles to highlight the advantages one would get by going from imperative to object-oriented, functional, lazy evaluation, promise-based, event emitters, and finally reactive approach.  The short examples are in JavaScript - the most widely used functional language today.",
+    "slug": "javascript-journey-mountain-west-js",
+    "url": "/bahmutov/javascript-journey-mountain-west-js",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-02-15 21:29:22 UTC",
+    "description": "How do we convince / train developers used to imperative programming style to switch to functional or even reactive programming? I show the same example implemented in multiple styles to highlight the advantages one would get by going from imperative to object-oriented, functional, lazy evaluation, promise-based, event emitters, and finally reactive approach.  The short examples are in JavaScript - the most widely used functional language today.",
+    "slug": "javascript-journey",
+    "url": "/bahmutov/javascript-journey",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2015-02-03 18:53:41 UTC",
+    "description": "Chrome DevTools code snippets became my favorite tool when investigating performance bottlenecks in web applications. A JavaScript fragment can be stored as a named snippet in the \"Sources\" DevTools panel and executed in the current page's context, just as if it were a code executed in the browser's console.",
+    "slug": "code-snippets",
+    "url": "/bahmutov/code-snippets",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
+    "createdAt": "2014-12-16 03:53:09 UTC",
+    "description": "profiling and improving AngularJs application performance using code snippets, working in batches, offloading work, on-demand computation, memory preallocation and smart DOM updates.",
+    "slug": "angularjs-performance",
+    "url": "/bahmutov/angularjs-performance",
+    "username": "bahmutov",
+    "visibility": "all"
+  }
+]
