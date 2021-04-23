@@ -2,5 +2,6 @@
   "fixturesFolder": false,
   "supportFile": false,
   "pluginsFile": false,
-  "baseUrl": "https://slides.com/bahmutov"
+  "baseUrl": "https://slides.com/bahmutov",
+  "projectId": "hacxpt"
 }

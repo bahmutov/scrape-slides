@@ -8,5 +8,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      # https://github.com/cypress-io/github-action
       - name: Cypress run
         uses: cypress-io/github-action@v1
+        with:
+          record: true
+        env:
+          # pass the Dashboard record key as an environment variable
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          # pass GitHub token to allow accurately detecting
+          # a build vs a re-run build
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # if the decks.json file has been updated by the test
+      # commit and push it to the repo
+      - name: Commit deck.json if changed 💾
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Updated decks.json file
+          branch: main
+          file_pattern: 'decks.json'
