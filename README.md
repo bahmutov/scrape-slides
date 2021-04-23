@@ -1,4 +1,4 @@
-# scrape-slides
+# scrape-slides [![ci status][ci image]][ci url]
 > Scrape slides.com/username to get the main deck information as a JSON list
 
 From
@@ -15,7 +15,6 @@ To `decks.json`
     "slug": "no-excuses",
     "url": "/bahmutov/no-excuses",
     "username": "bahmutov",
-    "viewCount": 115,
     "visibility": "all"
   },
   ...
@@ -30,3 +29,6 @@ $ npx cypress open
 ```
 
 See the [cypress/integration/spec.js](./cypress/integration/spec.js)
+
+[ci image]: https://github.com/bahmutov/scrape-slides/workflows/scrape/badge.svg?branch=main
+[ci url]: https://github.com/bahmutov/scrape-slides/actions
