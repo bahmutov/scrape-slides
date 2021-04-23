@@ -5,7 +5,7 @@ From
 
 ![Slides account in the browser](./images/slides.png)
 
-To `decks.json`
+To [decks.json](./decks.json)
 
 ```json
 [
