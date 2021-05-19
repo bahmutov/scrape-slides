@@ -1,5 +1,13 @@
 [
   {
+    "createdAt": "2021-05-14 12:28:41 UTC",
+    "description": "Visual testing is extremely effective at confirming the application works and looks the way it did previously, and that the new commits have not accidentally broken it. In this presentation, I will show how to do visual testing using Cypress test runner, both at the end-to-end and at the individual component levels. We will also consider the trade-offs of doing image diffing ourselves vs paying for a 3rd party service.",
+    "slug": "visual-testing-using-cypress",
+    "url": "/bahmutov/visual-testing-using-cypress",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
     "createdAt": "2021-04-09 19:31:53 UTC",
     "description": "In this presentation, Gleb will show how every commit and every pull request can run the full set of realistic end-to-end tests, ensuring the web application is going to work for the user. He will look at the modern CI setup, benefits of clean data environments, and parallelization speed-ups. Anyone looking to learn how awesome the modern automated testing pipeline can be would benefit from this presentation. Presented at BrightTALK 2021",
     "slug": "no-excuses",
@@ -57,7 +65,7 @@
   },
   {
     "createdAt": "2020-11-24 19:47:46 UTC",
-    "description": "Good documentation with powerful search is the key to the project's success with users. I will show how to configure Algolia search to scrape your site, and how to test the search using Cypress.io test runner. Presented at AngularUp in Nov 2020",
+    "description": "Good documentation with powerful search is the key to the project's success with users. I will show how to configure Algolia search to scrape your site, and how to test the search using Cypress.io test runner. Presented at AngularUp in Nov 2020. Video at https://www.youtube.com/watch?v=cqhV8UbT5LQ",
     "slug": "testing-docs",
     "url": "/bahmutov/testing-docs",
     "username": "bahmutov",

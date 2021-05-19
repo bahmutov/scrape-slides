@@ -29,14 +29,23 @@ describe('Bahmutov slides', () => {
   })
 
   it('has decks', () => {
-    cy.get('@decks').should('have.length.gt', 100)
-  })
-
-  it('has deck dataset', () => {
     cy.get('@decks')
       .first()
       .invoke('prop', 'dataset')
       .then(pickDeckProperties)
       .then((props) => cy.log(JSON.stringify(props)))
+  })
+
+  it('has deck dataset', () => {
+    const decks = []
+    cy.get('@decks')
+      .each((deck$) => {
+        const dataset = deck$.prop('dataset')
+        const deckProps = pickDeckProperties(dataset)
+        decks.push(deckProps)
+      })
+      .then(() => {
+        cy.writeFile('decks.json', decks)
+      })
   })
 })
