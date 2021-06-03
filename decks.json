@@ -1,7 +1,15 @@
 [
   {
+    "createdAt": "2021-05-20 12:48:45 UTC",
+    "description": "Introduction to Cypress. This 1-hour presentation gives an introduction to the Cypress Test Runner, its architecture, and the problems it is solving. We will cover end-to-end testing, accessing the application’s internal state, component testing, API testing, visual testing, and collecting code coverage from tests. We will also look at network stubbing and the trade-offs between the full stubbing and spying on the network traffic. The presentation will be followed by questions and answers. Video at https://commited.tech/events/session-introduction-to-cypress/",
+    "slug": "commited-intro-to-cypress",
+    "url": "/bahmutov/commited-intro-to-cypress",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
     "createdAt": "2021-05-14 12:28:41 UTC",
-    "description": "Visual testing is extremely effective at confirming the application works and looks the way it did previously, and that the new commits have not accidentally broken it. In this presentation, I will show how to do visual testing using Cypress test runner, both at the end-to-end and at the individual component levels. We will also consider the trade-offs of doing image diffing ourselves vs paying for a 3rd party service.",
+    "description": "Visual testing is extremely effective at confirming the application works and looks the way it did previously, and that the new commits have not accidentally broken it. In this presentation, I will show how to do visual testing using Cypress test runner, both at the end-to-end and at the individual component levels. We will also consider the trade-offs of doing image diffing ourselves vs paying for a 3rd party service. Video available at https://youtu.be/KX6Xb5oIaH0",
     "slug": "visual-testing-using-cypress",
     "url": "/bahmutov/visual-testing-using-cypress",
     "username": "bahmutov",
