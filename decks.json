@@ -1,5 +1,13 @@
 [
   {
+    "createdAt": "2021-06-01 14:25:39 UTC",
+    "description": "This presentation discusses how Angular developers can take advantage of Cypress Test Runner to write simple and powerful end-to-end tests. We will look at the custom commands, page objects, using fixtures and mocks, dynamic waits, and migrating from Protractor to Cypress.",
+    "slug": "cypress-ng",
+    "url": "/bahmutov/cypress-ng",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
     "createdAt": "2021-05-20 12:48:45 UTC",
     "description": "Introduction to Cypress. This 1-hour presentation gives an introduction to the Cypress Test Runner, its architecture, and the problems it is solving. We will cover end-to-end testing, accessing the application’s internal state, component testing, API testing, visual testing, and collecting code coverage from tests. We will also look at network stubbing and the trade-offs between the full stubbing and spying on the network traffic. The presentation will be followed by questions and answers. Video at https://commited.tech/events/session-introduction-to-cypress/",
     "slug": "commited-intro-to-cypress",
