@@ -1,5 +1,13 @@
 [
   {
+    "createdAt": "2021-06-01 19:38:30 UTC",
+    "description": "Everyone’s talking about Cypress. But they don’t know what they don’t know…    Get the inside scoop on Cypress from Distinguished Engineer Gleb Bahmutov. He’ll be joined by Eran Kinsbruner, DevOps Chief Evangelist at Perforce. Together, they’ll dive into how dev teams are testing, learning, and optimizing with one of the fastest-growing front-end automation frameworks.   You’ll Learn:   - Most advanced features for automating with Cypress.  - Best practices for scaling & optimizing with Cypress.  - When and how to use Cypress with commercial tools.  - What to expect on the roadmap for Cypress. ",
+    "slug": "cypress-declassified",
+    "url": "/bahmutov/cypress-declassified",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
     "createdAt": "2021-06-01 14:25:39 UTC",
     "description": "This presentation discusses how Angular developers can take advantage of Cypress Test Runner to write simple and powerful end-to-end tests. We will look at the custom commands, page objects, using fixtures and mocks, dynamic waits, and migrating from Protractor to Cypress.",
     "slug": "cypress-ng",
