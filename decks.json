@@ -1,5 +1,13 @@
 [
   {
+    "createdAt": "2021-07-04 18:29:00 UTC",
+    "description": "In this presentation, I will show how to write realistic end-to-end Cypress testsfor a real-time chat web application implemented using WebSockets. We will seehow the test runner can act as a second chat user, and how to truly control two test runnersto \"talk\" to each other during the test. Everyone learning to write tests for the modernweb can benefit from this presentation.",
+    "slug": "e2e-for-chat",
+    "url": "/bahmutov/e2e-for-chat",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
     "createdAt": "2021-06-01 19:38:30 UTC",
     "description": "Everyone’s talking about Cypress. But they don’t know what they don’t know…    Get the inside scoop on Cypress from Distinguished Engineer Gleb Bahmutov. He’ll be joined by Eran Kinsbruner, DevOps Chief Evangelist at Perforce. Together, they’ll dive into how dev teams are testing, learning, and optimizing with one of the fastest-growing front-end automation frameworks.   You’ll Learn:   - Most advanced features for automating with Cypress.  - Best practices for scaling & optimizing with Cypress.  - When and how to use Cypress with commercial tools.  - What to expect on the roadmap for Cypress. ",
     "slug": "cypress-declassified",
