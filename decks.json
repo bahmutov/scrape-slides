@@ -1,5 +1,13 @@
 [
   {
+    "createdAt": "2021-08-17 15:16:14 UTC",
+    "description": "A test deck for practicing scraping slides.",
+    "slug": "book-quotes",
+    "url": "/bahmutov/book-quotes",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
     "createdAt": "2021-07-04 18:29:00 UTC",
     "description": "In this presentation, I will show how to write realistic end-to-end Cypress testsfor a real-time chat web application implemented using WebSockets. We will seehow the test runner can act as a second chat user, and how to truly control two test runnersto \"talk\" to each other during the test. Everyone learning to write tests for the modernweb can benefit from this presentation.",
     "slug": "e2e-for-chat",
