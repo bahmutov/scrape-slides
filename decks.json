@@ -1,7 +1,7 @@
 [
   {
     "createdAt": "2021-09-01 16:18:00 UTC",
-    "description": "Every time a new user registers for your service, your application probably sends a confirmation email.How does that email look in the user's browser? How does it look on a mobile screen? And most importantly: does it work? In this presentation, I will show the full end-to-end open-source testing procedure for validating HTML emails. We will test the email functionality, accessibility, and visual look and style to ensure that our users are not silently dropping out due to a broken email subsystem.",
+    "description": "Every time a new user registers for your service, your application probably sends a confirmation email.How does that email look in the user's browser? How does it look on a mobile screen? And most importantly: does it work? In this presentation, I will show the full end-to-end open-source testing procedure for validating HTML emails. We will test the email functionality, accessibility, and visual look and style to ensure that our users are not silently dropping out due to a broken email subsystem. Presented at InfobipShift 2021.",
     "slug": "email-testing",
     "url": "/bahmutov/email-testing",
     "username": "bahmutov",
@@ -9,7 +9,7 @@
   },
   {
     "createdAt": "2021-08-26 16:15:18 UTC",
-    "description": "My unpopular opinion is that testing is ... important. How do you test your React Native apps? In this presentation, I will show how to run full integrations tests using Cypress while the RN app is running in the browser. This method can cover most of the application's code and be effective at finding logical errors and mistakes when calling the server APIs. Find the video at https://www.youtube.com/watch?v=PIxaFbMBez0",
+    "description": "My unpopular opinion is that testing is ... important. How do you test your React Native apps? In this presentation, I will show how to run full integrations tests using Cypress while the RN app is running in the browser. This method can cover most of the application's code and be effective at finding logical errors and mistakes when calling the server APIs. Presented at ReactFinland 2021. Find the video at https://www.youtube.com/watch?v=PIxaFbMBez0",
     "slug": "testing-react-native",
     "url": "/bahmutov/testing-react-native",
     "username": "bahmutov",
@@ -25,7 +25,7 @@
   },
   {
     "createdAt": "2021-07-04 18:29:00 UTC",
-    "description": "In this presentation, I will show how to write realistic end-to-end Cypress testsfor a real-time chat web application implemented using WebSockets. We will seehow the test runner can act as a second chat user, and how to truly control two test runnersto \"talk\" to each other during the test. Everyone learning to write tests for the modernweb can benefit from this presentation.",
+    "description": "In this presentation, I will show how to write realistic end-to-end Cypress tests for a real-time chat web application implemented using WebSockets. We will see how the test runner can act as a second chat user, and how to truly control two test runners to \"talk\" to each other during the test. Everyone learning to write tests for the modern web can benefit from this presentation. Presented at QA Global Summit V2",
     "slug": "e2e-for-chat",
     "url": "/bahmutov/e2e-for-chat",
     "username": "bahmutov",
