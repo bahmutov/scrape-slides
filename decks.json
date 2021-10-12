@@ -1,7 +1,7 @@
 [
   {
     "createdAt": "2021-09-01 16:18:00 UTC",
-    "description": "Every time a new user registers for your service, your application probably sends a confirmation email.How does that email look in the user's browser? How does it look on a mobile screen? And most importantly: does it work? In this presentation, I will show the full end-to-end open-source testing procedure for validating HTML emails. We will test the email functionality, accessibility, and visual look and style to ensure that our users are not silently dropping out due to a broken email subsystem. Presented at InfobipShift 2021.",
+    "description": "Every time a new user registers for your service, your application probably sends a confirmation email.How does that email look in the user's browser? How does it look on a mobile screen? And most importantly: does it work? In this presentation, I will show the full end-to-end open-source testing procedure for validating HTML emails. We will test the email functionality, accessibility, and visual look and style to ensure that our users are not silently dropping out due to a broken email subsystem. Presented at InfobipShift 2021, video at https://youtu.be/igj8OQhY0Jg",
     "slug": "email-testing",
     "url": "/bahmutov/email-testing",
     "username": "bahmutov",
