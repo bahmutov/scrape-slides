@@ -1,5 +1,13 @@
 [
   {
+    "createdAt": "2021-10-13 11:26:46 UTC",
+    "description": "This presentation describes my personal journey to \"power\" blogging. Every time I solve a problem, I describe the solution in a blog post to remind myself the next time I need it how I have done this. Then I describe how I use the Algolia search index to find the blog posts, and how I now scrape the blog posts, the presentation slides, and the YouTube videos too. Presented at Hashnode Open-Source 2021",
+    "slug": "not-just-a-blog",
+    "url": "/bahmutov/not-just-a-blog",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
     "createdAt": "2021-09-01 16:18:00 UTC",
     "description": "Every time a new user registers for your service, your application probably sends a confirmation email.How does that email look in the user's browser? How does it look on a mobile screen? And most importantly: does it work? In this presentation, I will show the full end-to-end open-source testing procedure for validating HTML emails. We will test the email functionality, accessibility, and visual look and style to ensure that our users are not silently dropping out due to a broken email subsystem. Presented at InfobipShift 2021, video at https://youtu.be/igj8OQhY0Jg",
     "slug": "email-testing",
