@@ -32,6 +32,14 @@
     "visibility": "all"
   },
   {
+    "createdAt": "2021-07-14 12:58:17 UTC",
+    "description": "The testing pyramid - the canonical shape of tests that defined what types of tests we need to write to make sure the app works - is ... obsolete. In this presentation, Roman Sandler and Gleb Bahmutov argue what the testing shape works better for today's web applications.",
+    "slug": "the-testing-shapes",
+    "url": "/bahmutov/the-testing-shapes",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
     "createdAt": "2021-07-04 18:29:00 UTC",
     "description": "In this presentation, I will show how to write realistic end-to-end Cypress tests for a real-time chat web application implemented using WebSockets. We will see how the test runner can act as a second chat user, and how to truly control two test runners to \"talk\" to each other during the test. Everyone learning to write tests for the modern web can benefit from this presentation. Presented at QA Global Summit V2",
     "slug": "e2e-for-chat",
