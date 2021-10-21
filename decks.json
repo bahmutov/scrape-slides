@@ -33,7 +33,7 @@
   },
   {
     "createdAt": "2021-07-14 12:58:17 UTC",
-    "description": "The testing pyramid - the canonical shape of tests that defined what types of tests we need to write to make sure the app works - is ... obsolete. In this presentation, Roman Sandler and Gleb Bahmutov argue what the testing shape works better for today's web applications.",
+    "description": "The testing pyramid - the canonical shape of tests that defined what types of tests we need to write to make sure the app works - is ... obsolete. In this presentation, Roman Sandler and Gleb Bahmutov argue what the testing shape works better for today's web applications. Presented at Mercari Dev meetup.",
     "slug": "the-testing-shapes",
     "url": "/bahmutov/the-testing-shapes",
     "username": "bahmutov",
