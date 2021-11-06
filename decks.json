@@ -1,5 +1,13 @@
 [
   {
+    "createdAt": "2021-11-03 17:01:23 UTC",
+    "description": "Many organizations struggle with building a reliable set of automated tests for their web applications. Yet a set of manual test plans is not an answer; testing without automation is slow, gives low confidence in the software, and the test results provide little actionable feedback to the developers. In this presentation, I describe how a large company has built a comprehensive automated set of end-to-end test suites after two previous unsuccessful attempts. I will show how to build trust between the QA engineers and front-end developers, how to convince other stakeholders that investing time in testing is important, and how to balance the different types of tests to cover both the happy paths and the edge cases.",
+    "slug": "testing-in-a-large-org",
+    "url": "/bahmutov/testing-in-a-large-org",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
     "createdAt": "2021-10-13 11:26:46 UTC",
     "description": "This presentation describes my personal journey to \"power\" blogging. Every time I solve a problem, I describe the solution in a blog post to remind myself the next time I need it how I have done this. Then I describe how I use the Algolia search index to find the blog posts, and how I now scrape the blog posts, the presentation slides, and the YouTube videos too. Presented at Hashnode Open-Source 2021",
     "slug": "not-just-a-blog",
