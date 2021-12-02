@@ -1,5 +1,13 @@
 [
   {
+    "createdAt": "2021-11-29 01:05:09 UTC",
+    "description": "Do you like writing End-to-End tests using Cypress? What if I told you that you can unlock the full power of Cypress by ... writing JavaScript code to extend the built-in Test Runner features? Be able to add more testing features, write shorter tests, have more power at your disposal? Most people only scratch the surface of the web application tests, but if you learn how to use the existing plugins (and there are lots of them!) and write your own can take your tests to the next level.",
+    "slug": "cypress-plugins",
+    "url": "/bahmutov/cypress-plugins",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
     "createdAt": "2021-11-03 17:01:23 UTC",
     "description": "Many organizations struggle with building a reliable set of automated tests for their web applications. Yet a set of manual test plans is not an answer; testing without automation is slow, gives low confidence in the software, and the test results provide little actionable feedback to the developers. In this presentation, I describe how a large company has built a comprehensive automated set of end-to-end test suites after two previous unsuccessful attempts. I will show how to build trust between the QA engineers and front-end developers, how to convince other stakeholders that investing time in testing is important, and how to balance the different types of tests to cover both the happy paths and the edge cases.",
     "slug": "testing-in-a-large-org",
