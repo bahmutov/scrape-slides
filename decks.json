@@ -8,6 +8,14 @@
     "visibility": "all"
   },
   {
+    "createdAt": "2021-11-10 21:26:04 UTC",
+    "description": "In the pursuit of building rock-solid end-to-end testing suites, there are many variables that need to be decided in order to maintain a consistent testing environment. If left undefined, these variables can lead to endless wasted cycles spent on the effects, rather than simply eliminating the root cause. Presented at EnterpriseNG Dec 2021",
+    "slug": "enterprise-ng",
+    "url": "/bahmutov/enterprise-ng",
+    "username": "bahmutov",
+    "visibility": "all"
+  },
+  {
     "createdAt": "2021-11-03 17:01:23 UTC",
     "description": "Many organizations struggle with building a reliable set of automated tests for their web applications. Yet a set of manual test plans is not an answer; testing without automation is slow, gives low confidence in the software, and the test results provide little actionable feedback to the developers. In this presentation, I describe how a large company has built a comprehensive automated set of end-to-end test suites after two previous unsuccessful attempts. I will show how to build trust between the QA engineers and front-end developers, how to convince other stakeholders that investing time in testing is important, and how to balance the different types of tests to cover both the happy paths and the edge cases.",
     "slug": "testing-in-a-large-org",
