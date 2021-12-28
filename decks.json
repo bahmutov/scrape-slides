@@ -33,7 +33,7 @@
   },
   {
     "createdAt": "2021-10-27 17:12:34 UTC",
-    "description": "The testing pyramid - the canonical shape of tests that defined what types of tests we need to write to make sure the app works - is ... obsolete. In this presentation, Roman Sandler and Gleb Bahmutov argue what the testing shape works better for today's web applications. Presented at TestJSSummit 2021",
+    "description": "The testing pyramid - the canonical shape of tests that defined what types of tests we need to write to make sure the app works - is ... obsolete. In this presentation, Roman Sandler and Gleb Bahmutov argue what the testing shape works better for today's web applications. Presented at TestJSSummit 2021, video at https://portal.gitnation.org/contents/testing-pyramid-makes-little-sense-what-we-can-use-instead",
     "slug": "pyramid-testjsummit",
     "url": "/bahmutov/pyramid-testjsummit",
     "username": "bahmutov",
